@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #3c5676;
+  font-size: 14px;
+  line-height: 22px;
+  color: #555555;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.semi-bold {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.container {
+  width: 800px;
+  height: auto;
+  display: flex;
+  margin: 50px auto;
+}
+
+.container .left {
+  width: 280px;
+  background: #0bb5f4;
+}
+
+.container .left .profile {
+  width: 100%;
+  height: 280px;
+}
+
+.container .left .profile img {
+  width: 100%;
+  height: 100%;
+}
+
+.container .content {
+  padding: 0 25px;
+}
+
+.container .head {
+  margin-bottom: 20px;
+}
+
+.container .left .bold {
+  color: #fff;
+  margin-top: 4px;
+}
+
+.container .left .regular {
+  color: #b1eaff;
+}
+
+.container .item {
+  padding: 25px 0;
+  border-bottom: 2px solid #b1eaff;
+}
+
+.container .left ul li {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.container .left ul li:last-child {
+  margin-bottom: 0;
+}
+
+.container .left ul li .desc {
+  color: #b1eaff;
+}
+
+.container .left .skills ul li {
+  display: flex;
+  margin-bottom: 10px;
+  color: #b1eaff;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .left .skills ul li .progress {
+  width: 60%;
+  margin: 0 5px;
+  height: 5px;
+  background: #009fd9;
+  position: relative;
+}
+
+.container .left .skills ul li .per {
+  width: 15%;
+}
+
+.container .left .skills ul li .progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #fff;
+}
+
+.container .left .social .semi-bold {
+  color: #fff;
+  margin-bottom: 3px;
+}
+
+.container .right {
+  width: 520px;
+  background: #fff;
+  padding: 25px;
+}
+
+.container .right .bold {
+  color: #0bb5f4;
+}
+
+.container .right .work ul,
+.container .right .education ul {
+  padding-left: 40px;
+  overflow: hidden;
+}
+
+.container .right ul li {
+  position: relative;
+}
+
+.container .right ul li .date {
+  font-size: 16px;
+  font-weight: bold;
+  font-weight: 500;
+  margin-bottom:5px;
+}
+.container .right ul li .info {
+  margin-bottom: 20px;
+}
+
+.container .right ul li:last-child .info {
+  margin-bottom: 0;
+}
+
+.container .right .hobby ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container .right .hobby ul  li{
+    margin-top: 4px;
+  color: #555555;
+  list-style:disc;
+}
+
+
